@@ -21,3 +21,9 @@ COMMAND: python manage.py createsuperuser
 COMMAND: python manage.py startapp projects
 11. REGISTER APP ON SETTINGS.PY
 add 'projects' to Installed Apps
+12. CREATE A PROJECT MODEL & MIGRATE
+inside models.py
+13. CREATE SUPERUSER
+COMMAND: python manage.py createsuperuser
+14. CREATE REQUIREMENTS.TXT
+COMMAND:pip freeze>requirements.txt
